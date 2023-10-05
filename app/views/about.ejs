@@ -1,0 +1,53 @@
+<!-- File name: style.css
+Student’s Name: Seyeon Jo
+StudentID: 301129230
+Date: Wed Oct 4, 2023 -->
+
+<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
+
+<main class="container">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img
+          src="/img/profile.jpeg"
+          class="d-block mx-lg-auto img-fluid rounded"
+          alt="Bootstrap Themes"
+          width="400"
+          height="400"
+          loading="lazy"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          Hello, I am Seyeon Jo!!
+        </h1>
+        <p class="lead">
+          As a student in Software Engineering Technology at Centennial College,
+          I am looking for a challenging role in a reputable organization to
+          utilize my technical, database, and management skills for the growth
+          of the organization as well as to enhance my knowledge about new and
+          emerging trends in the IT sector.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="/resume.pdf">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              Resume
+            </button></a
+          >
+          <a href="https://www.linkedin.com/in/seyeon-j-0342a5204/">
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-4 ml-2"
+            >
+              LinkedIn
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
+%>

@@ -1,0 +1,90 @@
+<!-- File name: style.css
+Student’s Name: Seyeon Jo
+StudentID: 301129230
+Date: Wed Oct 4, 2023 -->
+
+<%- include ('partials/header.ejs') %> <%- include ('partials/main_nav.ejs') %>
+
+<main class="container">
+  <section class="py-5 text-center container">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">Contact Us</h1>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="col-md-8 mx-auto d-flex flex-column align-items-start gap-4">
+        <div class="row">
+          <div class="col-12 mb-3">
+            <div class="row g-4 mb-3">
+              <div class="col-md-6 d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Email</h4>
+                <p class="text-body-secondary">sjo9@my.centennialcollege.ca</p>
+              </div>
+              <div class="col-md-6 d-flex flex-column gap-2">
+                <div
+                  class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#gear-fill"></use>
+                  </svg>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">Phone</h4>
+                <p class="text-body-secondary">437-660-6245</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <label for="exampleFormControlInput2" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput2"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="col-12 mb-3">
+            <label for "exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <a href="/" type="button"
+        class="btn btn-primary btn-lg px-4 gap-3"
+      >
+        Submit
+      </a>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<%- include ('partials/bottom_nav.ejs') %> <%- include ('partials/footer.ejs')
+%>
